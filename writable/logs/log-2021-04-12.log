@@ -1,0 +1,228 @@
+CRITICAL - 2021-04-12 00:31:57 --> Invalid file: layout/script/script.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/script/s...')
+#1 H:\XAMPP\htdocs\myschool\system\View\View.php(468): CodeIgniter\View\View->render('layout/script/s...', NULL, true)
+#2 H:\XAMPP\htdocs\myschool\app\Views\layout\default.php(34): CodeIgniter\View\View->include('layout/script/s...')
+#3 H:\XAMPP\htdocs\myschool\system\View\View.php(220): include('H:\\XAMPP\\htdocs...')
+#4 H:\XAMPP\htdocs\myschool\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 H:\XAMPP\htdocs\myschool\system\View\View.php(236): CodeIgniter\View\View->render('layout/default', Array, true)
+#6 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('roleManagment/r...', Array, true)
+#7 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(23): view('roleManagment/r...', Array)
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->index()
+#9 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#10 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-12 00:32:00 --> Invalid file: layout/script/script.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/script/s...')
+#1 H:\XAMPP\htdocs\myschool\system\View\View.php(468): CodeIgniter\View\View->render('layout/script/s...', NULL, true)
+#2 H:\XAMPP\htdocs\myschool\app\Views\layout\default.php(34): CodeIgniter\View\View->include('layout/script/s...')
+#3 H:\XAMPP\htdocs\myschool\system\View\View.php(220): include('H:\\XAMPP\\htdocs...')
+#4 H:\XAMPP\htdocs\myschool\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 H:\XAMPP\htdocs\myschool\system\View\View.php(236): CodeIgniter\View\View->render('layout/default', Array, true)
+#6 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('roleManagment/r...', Array, true)
+#7 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(23): view('roleManagment/r...', Array)
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->index()
+#9 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#10 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-12 00:32:04 --> Invalid file: layout/script/script.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/script/s...')
+#1 H:\XAMPP\htdocs\myschool\system\View\View.php(468): CodeIgniter\View\View->render('layout/script/s...', NULL, true)
+#2 H:\XAMPP\htdocs\myschool\app\Views\layout\default.php(34): CodeIgniter\View\View->include('layout/script/s...')
+#3 H:\XAMPP\htdocs\myschool\system\View\View.php(220): include('H:\\XAMPP\\htdocs...')
+#4 H:\XAMPP\htdocs\myschool\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('layout/default', Array, true)
+#6 H:\XAMPP\htdocs\myschool\app\Controllers\MySchoolController.php(10): view('layout/default')
+#7 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\MySchoolController->index()
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MySchoolController))
+#9 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-12 01:03:27 --> Invalid file: add_data.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_data.php')
+#1 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('add_data', Array, true)
+#2 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(47): view('add_data', Array)
+#3 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 02:02:31 --> finfo_file(H:\XAMPP\tmp\php1569.tmp): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(H:\\X...', 'H:\\XAMPP\\htdocs...', 125, Array)
+#1 H:\XAMPP\htdocs\myschool\system\Files\File.php(125): finfo_file(Resource id #113, 'H:\\XAMPP\\tmp\\ph...')
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(333): CodeIgniter\Files\File->getMimeType()
+#3 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(320): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 H:\XAMPP\htdocs\myschool\system\Files\File.php(140): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(60): CodeIgniter\Files\File->getRandomName()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#7 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-12 02:03:11 --> finfo_file(H:\XAMPP\tmp\phpB370.tmp): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(H:\\X...', 'H:\\XAMPP\\htdocs...', 125, Array)
+#1 H:\XAMPP\htdocs\myschool\system\Files\File.php(125): finfo_file(Resource id #111, 'H:\\XAMPP\\tmp\\ph...')
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(333): CodeIgniter\Files\File->getMimeType()
+#3 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(320): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 H:\XAMPP\htdocs\myschool\system\Files\File.php(140): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(60): CodeIgniter\Files\File->getRandomName()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#7 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-12 02:03:21 --> finfo_file(H:\XAMPP\tmp\phpD7A2.tmp): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(H:\\X...', 'H:\\XAMPP\\htdocs...', 125, Array)
+#1 H:\XAMPP\htdocs\myschool\system\Files\File.php(125): finfo_file(Resource id #110, 'H:\\XAMPP\\tmp\\ph...')
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(333): CodeIgniter\Files\File->getMimeType()
+#3 H:\XAMPP\htdocs\myschool\system\HTTP\Files\UploadedFile.php(320): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 H:\XAMPP\htdocs\myschool\system\Files\File.php(140): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(60): CodeIgniter\Files\File->getRandomName()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#7 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#8 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-12 02:41:38 --> Invalid file: add_data.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_data.php')
+#1 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('add_data', Array, true)
+#2 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(50): view('add_data', Array)
+#3 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 02:42:30 --> Invalid file: add_data.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_data.php')
+#1 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('add_data', Array, true)
+#2 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(50): view('add_data', Array)
+#3 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 02:42:43 --> Invalid file: add_data.php
+#0 H:\XAMPP\htdocs\myschool\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('add_data.php')
+#1 H:\XAMPP\htdocs\myschool\system\Common.php(1217): CodeIgniter\View\View->render('add_data', Array, true)
+#2 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(50): view('add_data', Array)
+#3 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->add_validation()
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-12 05:46:25 --> syntax error, unexpected '}'
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-04-12 06:00:22 --> Too few arguments to function App\Controllers\RoleMgtController::pdfDownload(), 0 passed in H:\XAMPP\htdocs\myschool\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#2 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 06:01:16 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\XAMPP\\htdocs...')
+#1 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:11:35 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\XAMPP\\htdocs...')
+#1 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:25:32 --> syntax error, unexpected '$pdfFileName' (T_VARIABLE), expecting ')'
+#0 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\XAMPP\\htdocs...')
+#1 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:26:18 --> syntax error, unexpected '', null);' (T_ENCAPSED_AND_WHITESPACE)
+#0 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('H:\\XAMPP\\htdocs...')
+#1 H:\XAMPP\htdocs\myschool\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:26:30 --> Call to a member function download() on null
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#2 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 06:29:04 --> File not found: /pdfFile/1618222901_4823a92f252085c1ad3e.pdf
+#0 H:\XAMPP\htdocs\myschool\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/pdfFile/161822...')
+#1 H:\XAMPP\htdocs\myschool\system\HTTP\DownloadResponse.php(116): CodeIgniter\Files\File->__construct('/pdfFile/161822...', true)
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\ResponseTrait.php(890): CodeIgniter\HTTP\DownloadResponse->setFilePath('/pdfFile/161822...')
+#3 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(155): CodeIgniter\HTTP\Response->download('1618222901_4823...', NULL)
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:29:34 --> File not found: uploads/pdfFile/1618222901_4823a92f252085c1ad3e.pdf
+#0 H:\XAMPP\htdocs\myschool\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('uploads/pdfFile...')
+#1 H:\XAMPP\htdocs\myschool\system\HTTP\DownloadResponse.php(116): CodeIgniter\Files\File->__construct('uploads/pdfFile...', true)
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\ResponseTrait.php(890): CodeIgniter\HTTP\DownloadResponse->setFilePath('uploads/pdfFile...')
+#3 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(155): CodeIgniter\HTTP\Response->download('1618222901_4823...', NULL)
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:30:04 --> File not found: /uploads/pdfFile/1618222901_4823a92f252085c1ad3e.pdf
+#0 H:\XAMPP\htdocs\myschool\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('/uploads/pdfFil...')
+#1 H:\XAMPP\htdocs\myschool\system\HTTP\DownloadResponse.php(116): CodeIgniter\Files\File->__construct('/uploads/pdfFil...', true)
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\ResponseTrait.php(890): CodeIgniter\HTTP\DownloadResponse->setFilePath('/uploads/pdfFil...')
+#3 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(155): CodeIgniter\HTTP\Response->download('1618222901_4823...', NULL)
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-12 06:33:14 --> Call to a member function getRandomName() on string
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#2 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 06:33:34 --> Call to a member function getRandomName() on string
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#2 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 07:08:14 --> Call to undefined method CodeIgniter\HTTP\DownloadResponse::getRandomName()
+#0 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#1 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#2 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-12 07:17:11 --> File not found: writable/uploads/pdfFile/
+#0 H:\XAMPP\htdocs\myschool\system\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('writable/upload...')
+#1 H:\XAMPP\htdocs\myschool\system\HTTP\DownloadResponse.php(116): CodeIgniter\Files\File->__construct('writable/upload...', true)
+#2 H:\XAMPP\htdocs\myschool\system\HTTP\ResponseTrait.php(890): CodeIgniter\HTTP\DownloadResponse->setFilePath('writable/upload...')
+#3 H:\XAMPP\htdocs\myschool\app\Controllers\RoleMgtController.php(154): CodeIgniter\HTTP\Response->download('', NULL)
+#4 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(936): App\Controllers\RoleMgtController->pdfDownload()
+#5 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RoleMgtController))
+#6 H:\XAMPP\htdocs\myschool\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\XAMPP\htdocs\myschool\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
